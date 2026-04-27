@@ -1,0 +1,863 @@
+{
+  "code": "ATL",
+  "name": "Hartsfield-Jackson Atlanta International",
+  "city": "Atlanta",
+  "country": "US",
+  "coordenadas": {
+    "lat": 33.6407,
+    "lon": -84.4277
+  },
+  "activo": true,
+  "pasajeros_anuales": 110531300,
+  "terminales": [
+    "T1",
+    "T2",
+    "T3",
+    "International"
+  ],
+  "inauguracion": {
+    "$date": "1980-09-21T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-11-15T08:30:00Z"
+  },
+  "valoracion": 4.2,
+  "notas": null,
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439011"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 180
+  }
+}
+{
+  "code": "PEK",
+  "name": "Beijing Capital International",
+  "city": "Beijing",
+  "country": "CN",
+  "coordenadas": {
+    "lat": 40.0801,
+    "lon": 116.5846
+  },
+  "activo": true,
+  "pasajeros_anuales": 100983290,
+  "terminales": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "inauguracion": {
+    "$date": "1958-03-02T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-09-10T10:00:00Z"
+  },
+  "valoracion": 3.9,
+  "notas": "Aeropuerto principal de Pekín",
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439012"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 210
+  }
+}
+{
+  "code": "DXB",
+  "name": "Dubai International",
+  "city": "Dubai",
+  "country": "AE",
+  "coordenadas": {
+    "lat": 25.2528,
+    "lon": 55.3644
+  },
+  "activo": true,
+  "pasajeros_anuales": 92265000,
+  "terminales": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "inauguracion": {
+    "$date": "1960-01-01T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-12-01T09:00:00Z"
+  },
+  "valoracion": 4.7,
+  "notas": null,
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439013"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 350
+  }
+}
+{
+  "code": "LAX",
+  "name": "Los Angeles International",
+  "city": "Los Angeles",
+  "country": "US",
+  "coordenadas": {
+    "lat": 33.9425,
+    "lon": -118.4081
+  },
+  "activo": true,
+  "pasajeros_anuales": 88068013,
+  "terminales": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6",
+    "T7",
+    "TBIT"
+  ],
+  "inauguracion": {
+    "$date": "1930-10-01T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-08-20T14:00:00Z"
+  },
+  "valoracion": 3.5,
+  "notas": "Obras de remodelación en curso",
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439014"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 140
+  }
+}
+{
+  "code": "HND",
+  "name": "Tokyo Haneda",
+  "city": "Tokyo",
+  "country": "JP",
+  "coordenadas": {
+    "lat": 35.5494,
+    "lon": 139.7798
+  },
+  "activo": true,
+  "pasajeros_anuales": 87099907,
+  "terminales": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "inauguracion": {
+    "$date": "1931-08-25T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-10-05T07:00:00Z"
+  },
+  "valoracion": 4.8,
+  "notas": null,
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439015"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": false,
+    "num_tiendas": 95
+  }
+}
+{
+  "code": "ORD",
+  "name": "O'Hare International",
+  "city": "Chicago",
+  "country": "US",
+  "coordenadas": {
+    "lat": 41.9742,
+    "lon": -87.9073
+  },
+  "activo": true,
+  "pasajeros_anuales": 83248096,
+  "terminales": [
+    "T1",
+    "T2",
+    "T3",
+    "T5"
+  ],
+  "inauguracion": {
+    "$date": "1944-11-03T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-07-18T11:00:00Z"
+  },
+  "valoracion": 3.7,
+  "notas": null,
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439016"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 160
+  }
+}
+{
+  "code": "LHR",
+  "name": "London Heathrow",
+  "city": "London",
+  "country": "GB",
+  "coordenadas": {
+    "lat": 51.47,
+    "lon": -0.4543
+  },
+  "activo": true,
+  "pasajeros_anuales": 79200000,
+  "terminales": [
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "inauguracion": {
+    "$date": "1946-01-01T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-06-30T08:00:00Z"
+  },
+  "valoracion": 4.1,
+  "notas": "Uno de los aeropuertos más concurridos de Europa",
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439017"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 300
+  }
+}
+{
+  "code": "PVG",
+  "name": "Shanghai Pudong International",
+  "city": "Shanghai",
+  "country": "CN",
+  "coordenadas": {
+    "lat": 31.1443,
+    "lon": 121.8083
+  },
+  "activo": true,
+  "pasajeros_anuales": 76153700,
+  "terminales": [
+    "T1",
+    "T2"
+  ],
+  "inauguracion": {
+    "$date": "1999-10-01T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-05-12T09:30:00Z"
+  },
+  "valoracion": 4.0,
+  "notas": null,
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439018"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 130
+  }
+}
+{
+  "code": "CDG",
+  "name": "Paris Charles de Gaulle",
+  "city": "Paris",
+  "country": "FR",
+  "coordenadas": {
+    "lat": 49.0097,
+    "lon": 2.5479
+  },
+  "activo": true,
+  "pasajeros_anuales": 67400000,
+  "terminales": [
+    "T1",
+    "T2A",
+    "T2B",
+    "T2C",
+    "T2D",
+    "T2E",
+    "T2F",
+    "T3"
+  ],
+  "inauguracion": {
+    "$date": "1974-03-08T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-04-22T10:00:00Z"
+  },
+  "valoracion": 3.8,
+  "notas": "Hub principal de Air France",
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439019"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 250
+  }
+}
+{
+  "code": "DFW",
+  "name": "Dallas/Fort Worth International",
+  "city": "Dallas",
+  "country": "US",
+  "coordenadas": {
+    "lat": 32.8998,
+    "lon": -97.0403
+  },
+  "activo": true,
+  "pasajeros_anuales": 73366946,
+  "terminales": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "inauguracion": {
+    "$date": "1974-01-13T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-03-10T13:00:00Z"
+  },
+  "valoracion": 4.0,
+  "notas": null,
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439020"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 175
+  }
+}
+{
+  "code": "AMS",
+  "name": "Amsterdam Schiphol",
+  "city": "Amsterdam",
+  "country": "NL",
+  "coordenadas": {
+    "lat": 52.3105,
+    "lon": 4.7683
+  },
+  "activo": true,
+  "pasajeros_anuales": 71700000,
+  "terminales": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "inauguracion": {
+    "$date": "1916-09-19T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-02-28T08:00:00Z"
+  },
+  "valoracion": 4.3,
+  "notas": null,
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439021"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 220
+  }
+}
+{
+  "code": "FRA",
+  "name": "Frankfurt Airport",
+  "city": "Frankfurt",
+  "country": "DE",
+  "coordenadas": {
+    "lat": 50.0379,
+    "lon": 8.5622
+  },
+  "activo": true,
+  "pasajeros_anuales": 65900000,
+  "terminales": [
+    "T1",
+    "T2"
+  ],
+  "inauguracion": {
+    "$date": "1936-07-08T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-01-15T09:00:00Z"
+  },
+  "valoracion": 4.0,
+  "notas": "Hub principal de Lufthansa",
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439022"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 190
+  }
+}
+{
+  "code": "IST",
+  "name": "Istanbul Airport",
+  "city": "Istanbul",
+  "country": "TR",
+  "coordenadas": {
+    "lat": 41.2753,
+    "lon": 28.7519
+  },
+  "activo": true,
+  "pasajeros_anuales": 64500000,
+  "terminales": [
+    "T1"
+  ],
+  "inauguracion": {
+    "$date": "2018-10-29T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2023-12-20T10:00:00Z"
+  },
+  "valoracion": 4.5,
+  "notas": "Aeropuerto más nuevo de la lista",
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439023"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": false,
+    "num_tiendas": 120
+  }
+}
+{
+  "code": "SIN",
+  "name": "Singapore Changi",
+  "city": "Singapore",
+  "country": "SG",
+  "coordenadas": {
+    "lat": 1.3644,
+    "lon": 103.9915
+  },
+  "activo": true,
+  "pasajeros_anuales": 68300000,
+  "terminales": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "inauguracion": {
+    "$date": "1981-07-01T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-11-01T07:00:00Z"
+  },
+  "valoracion": 4.9,
+  "notas": "Mejor aeropuerto del mundo varios años consecutivos",
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439024"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 400
+  }
+}
+{
+  "code": "ICN",
+  "name": "Incheon International",
+  "city": "Seoul",
+  "country": "KR",
+  "coordenadas": {
+    "lat": 37.4602,
+    "lon": 126.4407
+  },
+  "activo": true,
+  "pasajeros_anuales": 71165697,
+  "terminales": [
+    "T1",
+    "T2"
+  ],
+  "inauguracion": {
+    "$date": "2001-03-29T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-10-15T08:30:00Z"
+  },
+  "valoracion": 4.6,
+  "notas": null,
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439025"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 280
+  }
+}
+{
+  "code": "DEN",
+  "name": "Denver International",
+  "city": "Denver",
+  "country": "US",
+  "coordenadas": {
+    "lat": 39.8561,
+    "lon": -104.6737
+  },
+  "activo": true,
+  "pasajeros_anuales": 69000000,
+  "terminales": [
+    "Jeppesen",
+    "A",
+    "B",
+    "C"
+  ],
+  "inauguracion": {
+    "$date": "1995-02-28T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-09-05T11:00:00Z"
+  },
+  "valoracion": 3.9,
+  "notas": null,
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439026"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 100
+  }
+}
+{
+  "code": "BKK",
+  "name": "Suvarnabhumi Airport",
+  "city": "Bangkok",
+  "country": "TH",
+  "coordenadas": {
+    "lat": 13.69,
+    "lon": 100.7501
+  },
+  "activo": true,
+  "pasajeros_anuales": 65421845,
+  "terminales": [
+    "T1"
+  ],
+  "inauguracion": {
+    "$date": "2006-09-28T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-08-01T09:00:00Z"
+  },
+  "valoracion": 4.1,
+  "notas": null,
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439027"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": false,
+    "num_tiendas": 110
+  }
+}
+{
+  "code": "JFK",
+  "name": "John F. Kennedy International",
+  "city": "New York",
+  "country": "US",
+  "coordenadas": {
+    "lat": 40.6413,
+    "lon": -73.7781
+  },
+  "activo": true,
+  "pasajeros_anuales": 62560000,
+  "terminales": [
+    "T1",
+    "T2",
+    "T4",
+    "T5",
+    "T7",
+    "T8"
+  ],
+  "inauguracion": {
+    "$date": "1948-07-31T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-07-04T10:00:00Z"
+  },
+  "valoracion": 3.6,
+  "notas": "Renovación del terminal 1 en curso",
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439028"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 130
+  }
+}
+{
+  "code": "HKG",
+  "name": "Hong Kong International",
+  "city": "Hong Kong",
+  "country": "HK",
+  "coordenadas": {
+    "lat": 22.308,
+    "lon": 113.9185
+  },
+  "activo": true,
+  "pasajeros_anuales": 70500000,
+  "terminales": [
+    "T1",
+    "T2"
+  ],
+  "inauguracion": {
+    "$date": "1998-07-06T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-06-10T08:00:00Z"
+  },
+  "valoracion": 4.5,
+  "notas": null,
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439029"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 260
+  }
+}
+{
+  "code": "MAD",
+  "name": "Adolfo Suarez Madrid-Barajas",
+  "city": "Madrid",
+  "country": "ES",
+  "coordenadas": {
+    "lat": 40.4983,
+    "lon": -3.5676
+  },
+  "activo": true,
+  "pasajeros_anuales": 60177693,
+  "terminales": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T4S"
+  ],
+  "inauguracion": {
+    "$date": "1933-03-22T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-05-20T09:00:00Z"
+  },
+  "valoracion": 4.2,
+  "notas": "Principal aeropuerto de España",
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439030"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 200
+  }
+}
+{
+  "code": "SFO",
+  "name": "San Francisco International",
+  "city": "San Francisco",
+  "country": "US",
+  "coordenadas": {
+    "lat": 37.6213,
+    "lon": -122.379
+  },
+  "activo": true,
+  "pasajeros_anuales": 51800000,
+  "terminales": [
+    "T1",
+    "T2",
+    "T3",
+    "International"
+  ],
+  "inauguracion": {
+    "$date": "1927-05-07T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-04-12T10:30:00Z"
+  },
+  "valoracion": 3.8,
+  "notas": null,
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439031"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 115
+  }
+}
+{
+  "code": "SYD",
+  "name": "Sydney Kingsford Smith",
+  "city": "Sydney",
+  "country": "AU",
+  "coordenadas": {
+    "lat": -33.9399,
+    "lon": 151.1753
+  },
+  "activo": true,
+  "pasajeros_anuales": 44400000,
+  "terminales": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "inauguracion": {
+    "$date": "1920-01-01T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-03-08T08:00:00Z"
+  },
+  "valoracion": 4.0,
+  "notas": null,
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439032"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": false,
+    "num_tiendas": 90
+  }
+}
+{
+  "code": "BCN",
+  "name": "Barcelona-El Prat",
+  "city": "Barcelona",
+  "country": "ES",
+  "coordenadas": {
+    "lat": 41.2974,
+    "lon": 2.0833
+  },
+  "activo": true,
+  "pasajeros_anuales": 47300000,
+  "terminales": [
+    "T1",
+    "T2"
+  ],
+  "inauguracion": {
+    "$date": "1916-02-07T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-02-14T09:00:00Z"
+  },
+  "valoracion": 4.1,
+  "notas": "Segunda ciudad en tráfico aéreo de España",
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439033"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 150
+  }
+}
+{
+  "code": "MEX",
+  "name": "Mexico City International",
+  "city": "Mexico City",
+  "country": "MX",
+  "coordenadas": {
+    "lat": 19.4361,
+    "lon": -99.0719
+  },
+  "activo": false,
+  "pasajeros_anuales": 25000000,
+  "terminales": [
+    "T1",
+    "T2"
+  ],
+  "inauguracion": {
+    "$date": "1952-01-01T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2023-11-30T10:00:00Z"
+  },
+  "valoracion": 3.2,
+  "notas": "Cerrado parcialmente, tráfico redirigido al NAICM",
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439034"
+  },
+  "servicios": {
+    "wifi": false,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 60
+  }
+}
+{
+  "code": "NRT",
+  "name": "Narita International",
+  "city": "Tokyo",
+  "country": "JP",
+  "coordenadas": {
+    "lat": 35.772,
+    "lon": 140.3929
+  },
+  "activo": true,
+  "pasajeros_anuales": 39600000,
+  "terminales": [
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "inauguracion": {
+    "$date": "1978-05-20T00:00:00Z"
+  },
+  "ultima_inspeccion": {
+    "$date": "2024-01-10T07:30:00Z"
+  },
+  "valoracion": 4.3,
+  "notas": null,
+  "id_externo": {
+    "$oid": "507f1f77bcf86cd799439035"
+  },
+  "servicios": {
+    "wifi": true,
+    "parking": true,
+    "hotel_cercano": true,
+    "num_tiendas": 105
+  }
+}
