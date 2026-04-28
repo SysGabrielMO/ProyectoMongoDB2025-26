@@ -32,7 +32,7 @@ wget https://downloads.mongodb.com/compass/mongodb-mongosh_2.3.3_amd64.deb
 # 2. Instalamos los paquetes que hemos descargado con:
 dpkg -i mongodb-org-server_7.0.22_amd64.deb
 dpkg -i mongodb-database-tools-debian12-x86_64-100.10.0.deb
-sudo dpkg -i mongodb-mongosh_2.3.3_amd64.deb
+dpkg -i mongodb-mongosh_2.3.3_amd64.deb
 
 # 3. Arrancar el servicio
 sudo systemctl start mongod
