@@ -27,10 +27,12 @@ proyecto/
 # 1. Descargar paquetes
 wget https://repo.mongodb.org/apt/debian/dists/bookworm/mongodb-org/7.0/main/binary-amd64/mongodb-org-server_7.0.22_amd64.deb
 wget https://fastdl.mongodb.org/tools/db/mongodb-database-tools-debian12-x86_64-100.10.0.deb
+wget https://downloads.mongodb.com/compass/mongodb-mongosh_2.3.3_amd64.deb
 
 # 2. Instalamos los paquetes que hemos descargado con:
 dpkg -i mongodb-org-server_7.0.22_amd64.deb
 dpkg -i mongodb-database-tools-debian12-x86_64-100.10.0.deb
+sudo dpkg -i mongodb-mongosh_2.3.3_amd64.deb
 
 # 3. Arrancar el servicio
 sudo systemctl start mongod
@@ -39,6 +41,13 @@ sudo systemctl enable mongod
 # 6. Verificar que funciona
 sudo systemctl status mongod
 mongoimport --version
+mongosh --version
+
+# 7. Para verificar que todo este OK
+mongosh
+use aeropuertos_db
+db.aeropuertos.countDocuments()   // debe devolver 30
+db.aeropuertos.findOne({ code: "MAD" })
 ```
 
 ---
