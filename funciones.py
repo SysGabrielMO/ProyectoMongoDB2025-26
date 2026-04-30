@@ -32,7 +32,16 @@ def insertar_uno(code, name, city, country, lat, lon, activo, pasajeros, termina
     resultado = coleccion.insert_one(doc)
     return resultado.inserted_id
 
-
 def insertar_varios(lista_docs):
     resultado = coleccion.insert_many(lista_docs)
     return resultado.inserted_ids
+
+#ELIMINACION 
+
+def eliminar_uno(code):
+    resultado = coleccion.delete_one({"code": code})
+    return resultado.deleted_count
+
+def eliminar_varios(country):
+    resultado = coleccion.delete_many({"country": country})
+    return resultado.deleted_count
