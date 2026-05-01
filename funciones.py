@@ -45,3 +45,33 @@ def eliminar_uno(code):
 def eliminar_varios(country):
     resultado = coleccion.delete_many({"country": country})
     return resultado.deleted_count
+
+#MODIFICACION
+def actualizar_uno(code, nueva_valoracion):
+    resultado = coleccion.update_one(
+        {"code": code},
+        {"$set": {"valoracion": nueva_valoracion, "ultima_inspeccion": datetime.now()}}
+    )
+    return resultado.modified_count
+
+
+def actualizar_varios(country):
+    resultado = coleccion.update_many(
+        {"country": country},
+        {"$set": {"revision_pendiente": True}}
+    )
+    return resultado.modified_count
+
+
+def reemplazar_uno(code, name, notas):
+    resultado = coleccion.replace_one(
+        {"code": code},
+        {
+            "code": code,
+            "name": name,
+            "notas": notas,
+            "ultima_inspeccion": datetime.now(),
+            "activo": True
+        }
+    )
+    return resultado.modified_count
