@@ -54,14 +54,12 @@ def actualizar_uno(code, nueva_valoracion):
     )
     return resultado.modified_count
 
-
 def actualizar_varios(country):
     resultado = coleccion.update_many(
         {"country": country},
         {"$set": {"revision_pendiente": True}}
     )
     return resultado.modified_count
-
 
 def reemplazar_uno(code, name, notas):
     resultado = coleccion.replace_one(
@@ -75,3 +73,17 @@ def reemplazar_uno(code, name, notas):
         }
     )
     return resultado.modified_count
+
+#CONSULTAS SIMPLES 
+def consulta_por_pais(country):
+    return list(coleccion.find(
+        {"country": country},
+        {"_id": 0, "code": 1, "name": 1, "city": 1, "valoracion": 1, "pasajeros_anuales": 1}
+    ).sort("valoracion", -1))
+
+
+def consulta_mejor_valorados(limite):
+    return list(coleccion.find(
+        {"activo": True},
+        {"_id": 0, "code": 1, "name": 1, "country": 1, "valoracion": 1}
+    ).sort("valoracion", -1).limit(limite))
