@@ -87,3 +87,17 @@ def consulta_mejor_valorados(limite):
         {"activo": True},
         {"_id": 0, "code": 1, "name": 1, "country": 1, "valoracion": 1}
     ).sort("valoracion", -1).limit(limite))
+
+#CONSULTAS CON ARRAY
+def consulta_por_terminal(terminal):
+    return list(coleccion.find(
+        {"terminales": terminal},
+        {"_id": 0, "code": 1, "name": 1, "terminales": 1}
+    ))
+
+
+def consulta_num_terminales(num):
+    return list(coleccion.find(
+        {"terminales": {"$size": num}},
+        {"_id": 0, "code": 1, "name": 1, "terminales": 1}
+    ))
