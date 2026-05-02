@@ -101,3 +101,17 @@ def consulta_num_terminales(num):
         {"terminales": {"$size": num}},
         {"_id": 0, "code": 1, "name": 1, "terminales": 1}
     ))
+
+#CONSULTAS CON DOCUMENTO EMBEBIDO
+def consulta_por_tiendas(minimo):
+    return list(coleccion.find(
+        {"servicios.num_tiendas": {"$gt": minimo}},
+        {"_id": 0, "code": 1, "name": 1, "servicios.num_tiendas": 1}
+    ).sort("servicios.num_tiendas", -1))
+
+
+def consulta_sin_hotel():
+    return list(coleccion.find(
+        {"servicios.hotel_cercano": False},
+        {"_id": 0, "code": 1, "name": 1, "servicios.hotel_cercano": 1}
+    ))
