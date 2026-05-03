@@ -115,3 +115,19 @@ def consulta_sin_hotel():
         {"servicios.hotel_cercano": False},
         {"_id": 0, "code": 1, "name": 1, "servicios.hotel_cercano": 1}
     ))
+
+#CONSULTA DE AGRUPACION
+
+def consulta_agrupacion_por_pais():
+    pipeline = [
+        {
+            "$group": {
+                "_id": "$country",
+                "num_aeropuertos": {"$sum": 1},
+                "valoracion_media": {"$avg": "$valoracion"},
+                "total_pasajeros": {"$sum": "$pasajeros_anuales"}
+            }
+        },
+        {"$sort": {"num_aeropuertos": -1}}
+    ]
+    return list(coleccion.aggregate(pipeline))
