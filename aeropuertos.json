@@ -1,40 +1,40 @@
-{
-  "code": "ATL",
-  "name": "Hartsfield-Jackson Atlanta International",
-  "city": "Atlanta",
-  "country": "US",
-  "coordenadas": {
-    "lat": 33.6407,
-    "lon": -84.4277
-  },
-  "activo": true,
-  "pasajeros_anuales": 110531300,
-  "terminales": [
-    "T1",
-    "T2",
-    "T3",
-    "International"
-  ],
-  "inauguracion": {
-    "$date": "1980-09-21T00:00:00Z"
-  },
-  "ultima_inspeccion": {
-    "$date": "2024-11-15T08:30:00Z"
-  },
-  "valoracion": 4.2,
-  "notas": null,
-  "id_externo": {
-    "$oid": "507f1f77bcf86cd799439011"
-  },
-  "servicios": {
-    "wifi": true,
-    "parking": true,
-    "hotel_cercano": true,
-    "num_tiendas": 180
+[  {
+    "code": "ATL",
+    "name": "Hartsfield-Jackson Atlanta International",
+    "city": "Atlanta",
+    "country": "US",
+    "coordenadas": {
+      "lat": 33.6407,
+      "lon": -84.4277
+    },
+    "activo": true,
+    "pasajeros_anuales": 110531300,
+    "terminales": [
+      "T1",
+      "T2",
+      "T3",
+      "International"
+    ],
+    "inauguracion": {
+      "$date": "1980-09-21T00:00:00Z"
+    },
+    "ultima_inspeccion": {
+      "$date": "2024-11-15T08:30:00Z"
+    },
+    "valoracion": 4.2,
+    "notas": null,
+    "id_externo": {
+      "$oid": "507f1f77bcf86cd799439011"
+    },
+    "servicios": {
+      "wifi": true,
+      "parking": true,
+      "hotel_cercano": true,
+      "num_tiendas": 180
+    }
   }
-}
-{
-  "code": "PEK",
+,{
+    "code": "PEK",
   "name": "Beijing Capital International",
   "city": "Beijing",
   "country": "CN",
@@ -67,7 +67,7 @@
     "num_tiendas": 210
   }
 }
-{
+,{
   "code": "DXB",
   "name": "Dubai International",
   "city": "Dubai",
@@ -100,7 +100,7 @@
     "hotel_cercano": true,
     "num_tiendas": 350
   }
-}
+},
 {
   "code": "LAX",
   "name": "Los Angeles International",
@@ -139,7 +139,7 @@
     "hotel_cercano": true,
     "num_tiendas": 140
   }
-}
+},
 {
   "code": "HND",
   "name": "Tokyo Haneda",
@@ -173,7 +173,7 @@
     "hotel_cercano": false,
     "num_tiendas": 95
   }
-}
+},
 {
   "code": "ORD",
   "name": "O'Hare International",
@@ -208,7 +208,7 @@
     "hotel_cercano": true,
     "num_tiendas": 160
   }
-}
+},
 {
   "code": "LHR",
   "name": "London Heathrow",
@@ -243,7 +243,7 @@
     "hotel_cercano": true,
     "num_tiendas": 300
   }
-}
+},
 {
   "code": "PVG",
   "name": "Shanghai Pudong International",
@@ -276,7 +276,7 @@
     "hotel_cercano": true,
     "num_tiendas": 130
   }
-}
+},
 {
   "code": "CDG",
   "name": "Paris Charles de Gaulle",
@@ -315,7 +315,7 @@
     "hotel_cercano": true,
     "num_tiendas": 250
   }
-}
+},
 {
   "code": "DFW",
   "name": "Dallas/Fort Worth International",
@@ -351,7 +351,7 @@
     "hotel_cercano": true,
     "num_tiendas": 175
   }
-}
+},
 {
   "code": "AMS",
   "name": "Amsterdam Schiphol",
@@ -385,7 +385,7 @@
     "hotel_cercano": true,
     "num_tiendas": 220
   }
-}
+},
 {
   "code": "FRA",
   "name": "Frankfurt Airport",
@@ -418,7 +418,7 @@
     "hotel_cercano": true,
     "num_tiendas": 190
   }
-}
+},
 {
   "code": "IST",
   "name": "Istanbul Airport",
@@ -450,7 +450,7 @@
     "hotel_cercano": false,
     "num_tiendas": 120
   }
-}
+},
 {
   "code": "SIN",
   "name": "Singapore Changi",
@@ -485,7 +485,7 @@
     "hotel_cercano": true,
     "num_tiendas": 400
   }
-}
+},
 {
   "code": "ICN",
   "name": "Incheon International",
@@ -518,7 +518,7 @@
     "hotel_cercano": true,
     "num_tiendas": 280
   }
-}
+},
 {
   "code": "DEN",
   "name": "Denver International",
@@ -553,7 +553,7 @@
     "hotel_cercano": true,
     "num_tiendas": 100
   }
-}
+},
 {
   "code": "BKK",
   "name": "Suvarnabhumi Airport",
@@ -585,7 +585,7 @@
     "hotel_cercano": false,
     "num_tiendas": 110
   }
-}
+},
 {
   "code": "JFK",
   "name": "John F. Kennedy International",
@@ -622,7 +622,7 @@
     "hotel_cercano": true,
     "num_tiendas": 130
   }
-}
+},
 {
   "code": "HKG",
   "name": "Hong Kong International",
@@ -655,7 +655,7 @@
     "hotel_cercano": true,
     "num_tiendas": 260
   }
-}
+},
 {
   "code": "MAD",
   "name": "Adolfo Suarez Madrid-Barajas",
@@ -691,7 +691,7 @@
     "hotel_cercano": true,
     "num_tiendas": 200
   }
-}
+},
 {
   "code": "SFO",
   "name": "San Francisco International",
@@ -726,7 +726,7 @@
     "hotel_cercano": true,
     "num_tiendas": 115
   }
-}
+},
 {
   "code": "SYD",
   "name": "Sydney Kingsford Smith",
@@ -760,7 +760,7 @@
     "hotel_cercano": false,
     "num_tiendas": 90
   }
-}
+},
 {
   "code": "BCN",
   "name": "Barcelona-El Prat",
@@ -793,7 +793,7 @@
     "hotel_cercano": true,
     "num_tiendas": 150
   }
-}
+},
 {
   "code": "MEX",
   "name": "Mexico City International",
@@ -826,7 +826,7 @@
     "hotel_cercano": true,
     "num_tiendas": 60
   }
-}
+},
 {
   "code": "NRT",
   "name": "Narita International",
@@ -861,3 +861,4 @@
     "num_tiendas": 105
   }
 }
+]
