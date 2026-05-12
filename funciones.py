@@ -131,3 +131,10 @@ def consulta_agrupacion_por_pais():
         {"$sort": {"num_aeropuertos": -1}}
     ]
     return list(coleccion.aggregate(pipeline))
+
+#Consultas 3 aeropuertos con mas pasajeros anuales de mayor a menor
+def consulta_top_pasajeros(limite):
+    return list(coleccion.find(
+        {},
+        {"_id": 0, "code": 1, "name": 1, "pasajeros_anuales": 1}
+    ).sort("pasajeros_anuales", -1).limit(limite))

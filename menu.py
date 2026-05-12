@@ -5,7 +5,7 @@ from funciones import (
     consulta_por_pais, consulta_mejor_valorados,
     consulta_por_terminal, consulta_num_terminales,
     consulta_por_tiendas, consulta_sin_hotel,
-    consulta_agrupacion_por_pais
+    consulta_agrupacion_por_pais, consulta_top_pasajeros
 )
 
 
@@ -21,7 +21,8 @@ MENU_PRINCIPAL = """
 ║  4. Consultas simples               ║
 ║  5. Consultas con arrays            ║
 ║  6. Consultas con doc. embebido     ║
-║  7. Consulta de agrupacion          ║
+║  7. Consulta de agrupacion
+   8. Consulta de aeropuertos con mas pasajeros anuales
 ║  0. Salir                           ║
 ╚══════════════════════════════════════╝
 """
@@ -239,14 +240,20 @@ def accion_agrupacion():
             r["valoracion_media"], r["total_pasajeros"]
         ))
 
+def accion_top_pasajeros():
+    n = 3
+    docs = consulta_top_pasajeros(n)
+    for d in docs:
+        print(" ", d["code"], "-", d["name"], "| Pasajeros:", d["pasajeros_anuales"])
+
 
 # ─── MENU PRINCIPAL ───────────────────────────────────────────
 
 def menu():
-    while True:
+    op = ""
+    while op != "0":
         print(MENU_PRINCIPAL)
         op = input("Opcion: ").strip()
-
         if op == "1":
             accion_insertar()
         elif op == "2":
@@ -261,12 +268,12 @@ def menu():
             accion_consultas_embebido()
         elif op == "7":
             accion_agrupacion()
+        elif op == "8":
+            accion_top_pasajeros()
         elif op == "0":
             print("Hasta luego!")
-            break
         else:
             print("Opcion no valida.")
-
 
 if __name__ == "__main__":
     menu()
